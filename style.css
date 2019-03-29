@@ -1,0 +1,32 @@
+.lightbox {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.lightbox__overlay {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.lightbox__image {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+}
+.lightbox__figure {
+  text-align: center;
+}
+.lightbox__span {
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}

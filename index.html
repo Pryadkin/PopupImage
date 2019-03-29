@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PopupImage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="popup-gallery">
+    <ul class='popup-gallery__list'>
+      <li class='popup-gallery__list-item'>
+        <a href="img-popup/1-lg.jpg" alt="1-lg.jpeg">
+          <img src="img-popup/1.jpg" alt="1.jpeg">
+        </a>
+      </li>
+      <li class='popup-gallery__list-item'>
+        <a href="img-popup/2-lg.jpg" alt="2-lg.jpeg">
+          <img src="img-popup/2.jpg" alt="2.jpeg">
+        </a>
+      </li>
+      <li class='popup-gallery__list-item'>
+        <a href="img-popup/3-lg.jpg" alt="3-lg.jpeg">
+          <img src="img-popup/3.jpg" alt="3.jpeg">
+        </a>
+      </li>
+      <li class='popup-gallery__list-item'>
+        <a href="img-popup/4-lg.jpg" alt="4-lg.jpeg">
+          <img src="img-popup/4.jpg" alt="4.jpeg">
+        </a>
+      </li>
+      <li class='popup-gallery__list-item'>
+        <a href="img-popup/5-lg.jpg" alt="5-lg.jpeg">
+          <img src="img-popup/5.jpg" alt="5.jpeg">
+        </a>
+      </li>
+    </ul>
+  </div> <!-- popup-gallery - End -->
+  <div class="lightbox" onmousedown='return false' onselectstart='return false'>
+    <div class="lightbox__overlay"></div>
+    <figure class='lightbox__figure'>
+      <span class="lightbox__span lightbox__prev">prev</span>
+      <span class="lightbox__span lightbox__next">next</span>
+      <img class='lightbox__image' src="">
+    </figure>
+  </div> <!-- lightbox - End -->
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='script.js'></script>
+
+</body>
+</html>
